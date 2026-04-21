@@ -1,33 +1,40 @@
-# 🎵 Spotify Data Analysis & Popularity Prediction
+# Spotify Music Datathon Project
 
-## 👨‍💻 Team Members
-- Sakshi Kalekar
-- Varun Dornal
-- Omkar Awade 
+## Overview
+This project analyzes Spotify music data to understand patterns in audio features and their influence on song popularity.
 
-## 📌 Project Objective
-Analyze Spotify dataset to understand patterns in music features and predict song popularity.
+The objective is to explore relationships between musical attributes such as danceability, energy, and tempo, and to predict song popularity using data analytics and machine learning techniques.
 
-## 📊 Dataset
-- Source: Kaggle
-- Contains audio features like danceability, energy, loudness, etc.
+## Dataset
+Spotify Music Dataset (Kaggle)
 
-## 🔧 Tools Used
-- Python (Pandas, NumPy)
-- Matplotlib, Seaborn
-- Google Colab
+## Project Workflow
+Data Understanding  
+Data Cleaning  
+Exploratory Data Analysis (EDA)  
+Machine Learning Model  
+Model Evaluation  
 
-## 📈 Work Done
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
+## Machine Learning Model
+Logistic Regression / Random Forest (based on implementation)
 
-## 🔍 Key Insights
-- Energy and loudness are strongly correlated
-- Danceability affects popularity
-- Certain genres dominate Spotify trends
+Model Accuracy: ~ (update after training)
 
-## 📁 Repository Structure
-- EDA.ipynb
-- dataset.csv
-- README.md
+## Key Insights
+Energy and loudness show strong positive correlation.  
+Danceability has a noticeable impact on song popularity.  
+Certain genres consistently perform better in terms of popularity.  
+Acousticness tends to have a negative correlation with popularity.  
+
+## Tools Used
+Python  
+Pandas  
+Seaborn  
+Scikit-learn  
+Google Colab  
+Power BI  
+
+## Author
+Varun Dornal  
+Sakshi Kalekar  
+Omkar Awade  
